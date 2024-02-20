@@ -1,0 +1,9 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "http://demo7018197.mockable.io/",
+    "mock": "mocks/mockJson"
+  },
+  "save": [],
+  "expects":[]
+}

@@ -1,0 +1,14 @@
+
+{
+  "request": {
+    "method": "POST",
+    "url": "https://reqres.in/api/users/2",
+    "replace": "access_token",
+    "body": null,
+    "qs": null,
+    "headers": {
+      "Content-Type": "application/json",
+      "Authorization": "Bearer access_token"
+    }
+  }
+}

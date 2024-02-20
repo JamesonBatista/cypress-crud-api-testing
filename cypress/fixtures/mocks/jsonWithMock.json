@@ -1,0 +1,12 @@
+
+{
+  "intercept": {
+    "method": "POST",
+    "url": "/users/2"
+  },
+  "response": {
+    "status": 201,
+    "body": { "id": 7, "name": "mock response" },
+    "headers": { "Content-Type": "application/json" }
+  }
+}

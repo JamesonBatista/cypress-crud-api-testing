@@ -1,0 +1,16 @@
+
+{
+  "endpoint": "getUser",
+  "request": {
+    "method": "POST",
+    "url": "https://reqres.in/api/users/2",
+    "mock": "mocks/jsonWithMock.json",
+    "body": null,
+    "qs": null,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "expects": [{ "path": "status", "eq": 201 }, { "path": "id" }]
+}
+

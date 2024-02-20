@@ -1,0 +1,13 @@
+
+{
+  "request": {
+    "method": "GET",
+    "url": "https://reqres.in/api/users?page=2",
+    "path": "id_user/continueEndpoint",
+    "body": null,
+    "qs": null,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
