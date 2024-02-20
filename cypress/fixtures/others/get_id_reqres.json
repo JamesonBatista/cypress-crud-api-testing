@@ -1,0 +1,6 @@
+{
+  "req": {
+    "url": "https://reqres.in/api/users",
+    "path": "id_user_created"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "req": {
+    "method": "GET",
+    "url": "endpoint"
+  },
+  "expect": {
+    "path": "status",
+    "eq": 200
+  }
+}

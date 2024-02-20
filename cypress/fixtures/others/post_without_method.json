@@ -1,0 +1,16 @@
+{
+  "req": {
+    "url": "https://reqres.in/api/users",
+    "replace": "name_user, street_user, city_user",
+    "body": {
+      "name": "name_user",
+      "street": "street_user",
+      "city": "city_user"
+    }
+  },
+  "expect": [
+    { "path": "name", "eq": "name_user" },
+    { "path": "street", "eq": "street_user" },
+    { "path": "city", "eq": "city_user" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "req": {
+    "method": "GET",
+    "url": "url",
+    "path": "/lang/spanish"
+  },
+  "expect": {
+    "path": "status",
+    "eq": 200
+  }
+}

@@ -1,4 +1,3 @@
-
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
@@ -35,20 +34,21 @@ module.exports = defineConfig({
     experimentalRunAllSpecs: true, // in e2e:{}
     env: {
       // in e2e:{}
+      endpoint: "https://restcountries.com/v3.1/lang/spanish",
+      url: "https://restcountries.com/v3.1",
       screenshot: false, // required true, for active screenshot
       visualPayloads: false,
-      crudStyles: true // active styles crud designer
-  //   environment: "QA", // change environment
-  //   QA: {
-  //     getUser: "https://reqres.in/api/users",
-  //   },
-  //   DEV: {
-  //     getUser: "https://reqres.in/api/users/2",
-  //   },
-  //   PROD: {
-  //     getUser: "https://reqres.in/api/users/2",
-  //   },
+      crudStyles: true, // active styles crud designer
+      //   environment: "QA", // change environment
+      //   QA: {
+      //     getUser: "https://reqres.in/api/users",
+      //   },
+      //   DEV: {
+      //     getUser: "https://reqres.in/api/users/2",
+      //   },
+      //   PROD: {
+      //     getUser: "https://reqres.in/api/users/2",
+      //   },
     },
   },
 });
-
