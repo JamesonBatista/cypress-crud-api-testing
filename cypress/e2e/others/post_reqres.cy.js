@@ -17,8 +17,13 @@ Requests("Test post in reqresIn without method", function () {
       as: "id_user_created",
     });
   });
+
   GET("Rescue id created in post", function () {
     cy.crud({ payload: "others/get_id_reqres" });
+  });
+
+  it("Logs crudStorage.save", () => {
+    cy.log(rescue_save());
   });
 });
 

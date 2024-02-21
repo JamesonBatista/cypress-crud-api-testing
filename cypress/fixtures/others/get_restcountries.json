@@ -1,0 +1,12 @@
+{
+  "req": {
+    "url": "https://restcountries.com/v3.1/translation/germany"
+  },
+
+  "expect": [
+    { "path": "common", "eq": "Germany" },
+    { "path": "symbol" },
+    { "path": "status", "eq": "officially-assigned" },
+    { "search": "+4" }
+  ]
+}
