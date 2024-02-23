@@ -7,6 +7,7 @@
     { "path": "common", "eq": "Germany" },
     { "path": "symbol" },
     { "path": "status", "eq": "officially-assigned" },
-    { "search": "+4" }
+    { "search": "+4" },
+    { "search": "Euro" }
   ]
 }

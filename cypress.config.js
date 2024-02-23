@@ -36,6 +36,7 @@ module.exports = defineConfig({
       // in e2e:{}
       endpoint: "https://restcountries.com/v3.1/lang/spanish",
       url: "https://restcountries.com/v3.1",
+      serverest: "https://serverest.dev",
       screenshot: false, // required true, for active screenshot
       visualPayloads: false,
       crudStyles: true, // active styles crud designer

@@ -1,0 +1,9 @@
+{
+  "req": {
+    "url": "https://serverest.dev/usuarios",
+    "replace": "authorization",
+    "headers": { "Authorization": "authorization" }
+  },
+  "expect": [{ "path": "quantidade" }],
+  "save": { "path": "_id", "position": 1 }
+}

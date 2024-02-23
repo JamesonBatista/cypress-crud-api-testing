@@ -1,0 +1,8 @@
+{
+  "req": {
+    "url": "https://serverest.dev/login",
+    "body": { "email": "fulano@qa.com", "password": "teste" }
+  },
+  "expect": { "path": "message", "eq": "Login realizado com sucesso" },
+  "save": { "path": "authorization" }
+}

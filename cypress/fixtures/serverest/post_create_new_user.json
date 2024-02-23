@@ -1,0 +1,15 @@
+{
+  "req": {
+    "url": "serverest",
+    "path": "/usuarios",
+    "replace": "name_user, email_user, password_user, authorization",
+    "headers": { "Authorization": "authorization" },
+    "body": {
+      "nome": "name_user",
+      "email": "email_user",
+      "password": "password_user",
+      "administrador": "true"
+    }
+  },
+  "check": { "path": "_id" }
+}

@@ -1,0 +1,7 @@
+{
+  "req": {
+    "url": "serverest/usuarios",
+    "path": "_id"
+  },
+  "expect": { "path": "nome" }
+}
